@@ -1,0 +1,9 @@
+{
+  "id": "obsidian-media-tracker",
+  "name": "Media Tracker (观影手账)",
+  "version": "2.3.0",
+  "minAppVersion": "1.5.0",
+  "description": "将电影、电视剧、动漫观影记录保存到 Obsidian Markdown 文件，并以三列看板显示。",
+  "author": "Codex Pair",
+  "isDesktopOnly": true
+}

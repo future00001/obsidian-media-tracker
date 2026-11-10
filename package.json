@@ -1,0 +1,14 @@
+{
+  "name": "obsidian-media-tracker",
+  "version": "2.3.0",
+  "description": "Obsidian 观影记录看板，支持电影、电视剧、动漫分类、五星评分和观感编辑",
+  "main": "main.js",
+  "scripts": {
+    "build": "esbuild src/main.ts --bundle --outfile=main.js --external:obsidian --format=cjs --target=es2020"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "obsidian": "^1.14.4",
+    "typescript": "^5.8.0"
+  }
+}
